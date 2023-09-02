@@ -13,8 +13,8 @@ The following is the name of the files on each branch.
 	Task_Manager.c
 
 ### second_task:
-	Task_2_1.
-	Task_2_2.
+	Task_2_1.pdsprj
+	Task_2_2.pdsprj
 	01121998172_Task_2_3.pdf
 
 ### third_task:
@@ -26,3 +26,5 @@ The following is the name of the files on each branch.
 	Task_4_2.ipynb
 
 ### fifth_task:
+	Repo_link.txt
+	Task_5_2.txt
