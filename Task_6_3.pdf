@@ -1,0 +1,85 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\begin{document}
+
+\section{Introduction}
+In the following article we are going to cover some main points regarding path planning technology since it is essential in many industries nowadays.
+
+\subsection{What is path planning?}
+
+It is the process of finding the suitable path between two points, given the start point it uses algorithms to reach the end point. Taking into considerations the obstacles and the length of the route to that point.
+
+\subsection{Usage}
+According to the statement about the Path planning , now you might have a hint that it is mainly used in automobiles and robotics since they need to manoeuvre and explore their environments.
+
+\section{Path Planning Algorithms}
+This section includes some of the mainly-used algorithms for path planning.
+\subsection{Probabilistic Algorithms}
+\begin{itemize}
+	\item Rapidly-exploring Random Trees
+This algorithm builds a tree of random samples and connects them to the existing tree to create a path.
+	\item Probabilistic Roadmaps
+It creates a network of nodes connected by valid paths and checks random points till it finds a path.
+\end{itemize}
+
+\subsection{Deterministic Algorithms}
+\begin{itemize}
+	\item Dijkstra's Algorithm
+Finds the shortest path by exploring all possible paths from the initial point to the goal.
+	\item A* Algorithm
+Combines the advantages of Dijkstra's algorithm and a heuristic to efficiently fint the shortest path.
+	\item Theta Algorithm
+Another imprvement to A* that reduces unnecessary deviations by considering the geometric nature of the environment.
+\end{itemize}
+\section{Planners}
+\paragraph{Local Planner}
+is the part that is mainly concerned with generating a path within a small region and interacting immediately to dynamic obstacles to adjust its path.
+\paragraph{Global Planner}
+is the part that builds the overall route between the start point and the end point, thus the local planner can follow this route and perform its operation.
+\section{Applications}
+Path planning is used in many industries some as agricultural, biomedical and even in aircrafts.
+\begin{itemize}
+	\item
+It is an essential technology in autonomous vehicles and it is a vital technology for self-driving cars.
+	\item
+Robotics also use path planning for tasks like exploration or pick and place.
+	\item
+Autonomous drones and aircraft use path planning for navigation and exploration.
+\end{itemize}
+\section{Challenges and Opportunities}
+\subsection{Challenges Facing Path Planning}
+\begin{enumerate}
+	\item 
+Handling interacting dynamic 3D objects presents a significant challenge.
+	\item
+Real time handling is critical for autonomous systems.
+	\item
+Working over predictions since it deals with uncertain dynamic objects and approximated sensor data.
+	\item
+Hard to ensure safety and predictibility in shared humna-robots spaces
+\end{enumerate}
+
+\subsection{Future Trends}
+\begin{enumerate}
+	\item
+Developing methods for efficient coordination of multiple agents.
+	\item
+Semantic Mapping to enhance path planning in complex environments.
+	\item
+Leveraging advanced sensors and processors for acquiring real-time performance.
+	\item
+Heavily Deploying Advanced Deep Learning techniques to improve path planning.
+\end{enumerate}
+
+\section{Conclusion}
+\paragraph{In conclusion}
+path planning is a topic of great interest, and in my opinion it is an essential aspect of autonomous systems that will remain a topic of interest for a while despite its drawbacks or recent incidents.
+However, various path planning algorithms and approaches exist, ongoing research and development are essential to address the challenges posed by real-world scenarios.
+
+\section{References}
+\href{https://www.connectedpapers.com/main/9c07679d2da571ac6b9a051f229da4272817873d/A-Survey-of-Path-Planning-Algorithms-for-Mobile-Robots/graph}{Connected Papers Survey}
+\newline
+\href{https://iopscience.iop.org/article/10.1088/1755-1315/804/2/022024/meta}{Iop Article}
+\end{document}
