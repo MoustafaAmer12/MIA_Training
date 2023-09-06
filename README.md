@@ -28,3 +28,9 @@ The following is the name of the files on each branch.
 ### fifth_task:
 	repo_link
 	Task_5_2.md
+
+### sixth_task:
+	Task_6_1 - dir
+	Task_6_2 - dir
+	Task_6_3.pdf
+	Task_6_3.tex
